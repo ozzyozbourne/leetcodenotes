@@ -1,0 +1,37 @@
+A)Nearest greater to the right
+B)Nearest smaller to the right 
+C)Nearest greater to the left
+D)Nearest smaller to the right
+
+Psudo
+
+loop begins
+--------------------------------------------------------------------------
+Start from right(if the questions is from greater or smaller to the right)
+Or 
+Start frim left(if the questions is from greater or smaller to the left)
+---------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Pop Condition 
+If the stack top is smaller(nearest greater to the left or right) or 
+greater(nearest smaller to the left or right)than the current 
+pop the stack top
+-----------------------------------------------------------------------------
+Empty stack Condition
+If while comparision the stack is or gets empty record -1 in the result array
+-----------------------------------------------------------------------------
+Condition statisfied 
+If the stack top is greater(nearest greater to the left or right) or smaller
+(nearest smaller to the left or right) record stack top than the current 
+record top in the result array
+------------------------------------------------------------------------------
+
+push the current to the top of the stack
+-------------------------------------------------------------------------------
+loop ends
+
+
+
+
+

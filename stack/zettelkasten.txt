@@ -1,0 +1,8 @@
+Stack is used in place where we have two loop and the second loop 
+depends on the first loop (i goes from start to end and j goes from i+1 \
+to the end), hence the complexcity in the brute force solution is n^2 
+by using stack the complexcity is reduced to n since we get the solution
+in one iteration but the space complexcity increasing to n since the worst case the stack will contain all the elements present in the array.
+
+time  = O(n)
+space = O(n)
